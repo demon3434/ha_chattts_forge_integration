@@ -1,0 +1,27 @@
+DOMAIN = "chattts_forge_tts"
+PLATFORMS = ["tts"]
+
+CONF_BASE_URL = "base_url"
+CONF_SPEAKER = "speaker"
+CONF_STYLE = "style"
+CONF_MODEL = "model"
+CONF_AUDIO_FORMAT = "audio_format"
+CONF_DEFAULT_LANGUAGE = "default_language"
+
+DEFAULT_NAME = "ChatTTS Forge"
+DEFAULT_BASE_URL = "http://192.168.7.196:7870"
+DEFAULT_SPEAKER = "female2"
+DEFAULT_STYLE = "chat"
+DEFAULT_MODEL = "chat-tts"
+DEFAULT_AUDIO_FORMAT = "wav"
+DEFAULT_LANGUAGE = "zh-CN"
+
+OPTION_VOICE = "voice"
+OPTION_SPEAKER = "speaker"
+OPTION_STYLE = "style"
+OPTION_MODEL = "model"
+OPTION_FORMAT = "format"
+OPTION_TEMPERATURE = "temperature"
+OPTION_TOP_P = "top_p"
+OPTION_TOP_K = "top_k"
+OPTION_SEED = "seed"

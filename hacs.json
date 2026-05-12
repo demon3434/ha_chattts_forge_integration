@@ -1,0 +1,7 @@
+{
+  "name": "ChatTTS Forge TTS",
+  "render_readme": true,
+  "content_in_root": false,
+  "domains": ["tts"],
+  "homeassistant": "2025.5.0"
+}

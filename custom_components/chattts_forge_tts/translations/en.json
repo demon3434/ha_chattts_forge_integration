@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect ChatTTS Forge",
+        "description": "Add your ChatTTS-Forge service without editing YAML.",
+        "data": {
+          "name": "Name",
+          "base_url": "Service URL",
+          "speaker": "Default speaker",
+          "style": "Default style",
+          "model": "Default model",
+          "audio_format": "Default audio format",
+          "default_language": "Default language"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to ChatTTS-Forge",
+      "invalid_response": "ChatTTS-Forge returned an invalid response",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This ChatTTS-Forge service is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "ChatTTS Forge options",
+        "data": {
+          "name": "Name",
+          "base_url": "Service URL",
+          "speaker": "Default speaker",
+          "style": "Default style",
+          "model": "Default model",
+          "audio_format": "Default audio format",
+          "default_language": "Default language"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to ChatTTS-Forge",
+      "invalid_response": "ChatTTS-Forge returned an invalid response",
+      "unknown": "Unexpected error"
+    }
+  }
+}

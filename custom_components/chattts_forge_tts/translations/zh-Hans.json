@@ -1,0 +1,48 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "连接 ChatTTS Forge",
+        "description": "通过界面添加 ChatTTS-Forge 服务，不需要手写 YAML。",
+        "data": {
+          "name": "名称",
+          "base_url": "服务地址",
+          "speaker": "默认音色",
+          "style": "默认 style",
+          "model": "默认模型",
+          "audio_format": "默认输出格式",
+          "default_language": "默认语言"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接到 ChatTTS-Forge",
+      "invalid_response": "ChatTTS-Forge 返回了无效响应",
+      "unknown": "发生了未知错误"
+    },
+    "abort": {
+      "already_configured": "这个 ChatTTS-Forge 服务已经添加过了"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "ChatTTS Forge 选项",
+        "data": {
+          "name": "名称",
+          "base_url": "服务地址",
+          "speaker": "默认音色",
+          "style": "默认 style",
+          "model": "默认模型",
+          "audio_format": "默认输出格式",
+          "default_language": "默认语言"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接到 ChatTTS-Forge",
+      "invalid_response": "ChatTTS-Forge 返回了无效响应",
+      "unknown": "发生了未知错误"
+    }
+  }
+}
